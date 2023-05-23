@@ -658,8 +658,12 @@ img {
     gap: 0;
   }
 }
+.footer-text-container {
+  margin-bottom: 72px;
+}
 @media only screen and (min-width: 1158px) {
   .footer-text-container {
+    margin-bottom: 0;
     margin-right: 120px;
   }
 }
@@ -686,7 +690,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 @media only screen and (min-width: 768px) {
   .footer-social {
@@ -729,7 +732,7 @@ img {
 /* form-footer */
 .footer-form {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -757,7 +760,8 @@ img {
 }
 .footer-input {
   margin-bottom: 16px;
-  width: 368px;
+  min-width: 320px;
+  max-width: 368px;
 
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1191,7 +1195,7 @@ img {
 
   z-index: 999;
 
-  transform: translateX(200%);
+  transform: translateX(150%);
   transition: transform 250ms ease-in-out;
 }
 @media only screen and (min-width: 768px) {
