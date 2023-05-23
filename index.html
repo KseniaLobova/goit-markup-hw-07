@@ -137,17 +137,32 @@
           <h2 class="option-title">What are we doing</h2>
           <ul class="list option-list">
             <li class="option-item">
-              <img src="./images/section3/pc.jpg" alt="notebook" width="360" />
+              <img
+                srcset="
+                  ./images/section3/pc_360.jpg,
+                  ./images/section3/pc_720@2x.jpg 2x
+                "
+                src="./images/section3/pc_360.jpg"
+                alt="notebook"
+                width="360" />
             </li>
             <li class="option-item">
               <img
-                src="./images/section3/phone.jpg"
+                srcset="
+                  ./images/section3/phone_360.jpg,
+                  ./images/section3/phone_720@2x.jpg 2x
+                "
+                src="./images/section3/phone_360.jpg"
                 alt="mobileApp"
                 width="360" />
             </li>
             <li class="option-item">
               <img
-                src="./images/section3/smartphone.jpg"
+                srcset="
+                  ./images/section3/smartphone_360.jpg,
+                  ./images/section3/smartphone_720@2.jpg 2x
+                "
+                src="./images/section3/smartphone_360.jpg"
                 alt="hand"
                 width="360" />
             </li>
@@ -160,7 +175,14 @@
           <h2 class="option-title">Our Team</h2>
           <ul class="list team-list">
             <li class="team-item">
-              <img src="./images/team/mark.jpg" alt="man" width="264" />
+              <img
+                srcset="
+                  ./images/team/mark_264.jpg,
+                  ./images/team/mark_528@2x.jpg 2x
+                "
+                src="./images/team/mark_264.jpg"
+                alt="man"
+                width="264" />
 
               <div class="team-name">
                 <h3 class="suptitle">Mark Guerrero</h3>
@@ -198,7 +220,14 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/team/tom.jpg" alt="man" width="264" />
+              <img
+                srcset="
+                  ./images/team/tom_264.jpg,
+                  ./images/team/tom_528@2x.jpg 2x
+                "
+                src="./images/team/tom_264.jpg"
+                alt="man"
+                width="264" />
               <div class="team-name">
                 <h3 class="suptitle">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
@@ -235,7 +264,14 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/team/camila.jpg" alt="woman" width="264" />
+              <img
+                srcset="
+                  ./images/team/camila_264.jpg,
+                  ./images/team/camila_528@2x.jpg 2x
+                "
+                src="./images/team/camila_264.jpg"
+                alt="woman"
+                width="264" />
               <div class="team-name">
                 <h3 class="suptitle">Camila Garcia</h3>
                 <p class="text">Marketing</p>
@@ -272,7 +308,14 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/team/daniel.jpg" alt="man" width="264" />
+              <img
+                srcset="
+                  ./images/team/daniel_264.jpg,
+                  ./images/team/daniel_528@2x.jpg 2x
+                "
+                src="./images/team/daniel_264.jpg"
+                alt="man"
+                width="264" />
               <div class="team-name">
                 <h3 class="suptitle">Daniel Wilson</h3>
                 <p class="text">UI Designer</p>
@@ -496,10 +539,10 @@
               <a class="agreement-link" href="">Privacy Policy</a>
             </span>
           </label>
-          <button class="order-button modal-submit-btn" type="submit">
-            Send
-          </button>
         </form>
+        <button class="order-button modal-submit-btn" type="submit">
+          Send
+        </button>
       </div>
     </div>
     <!-- mobile-menu -->
