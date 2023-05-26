@@ -1301,6 +1301,9 @@ img {
   margin: 0;
   margin-bottom: auto;
 }
+.mobile-item .active-mobile {
+  color: var(--background-hover-btn);
+}
 .mobile-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -1331,6 +1334,16 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--primary-color);
+}
+.mobile-contacts-item .active-mobile {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--accent-color);
 }
 .mobile-contacts-link:focus {
   font-weight: 700;
